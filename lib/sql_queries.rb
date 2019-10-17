@@ -11,7 +11,6 @@ def selects_the_titles_of_all_projects_and_their_pledge_amounts_alphabetized_by_
   FROM projects
   LEFT INNER JOIN pledges
   ON projects.id = pledges.project_id
-  
   WHERE column_name 
   BETWEEN value1 AND value2"
 end
