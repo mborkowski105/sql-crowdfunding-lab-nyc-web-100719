@@ -8,7 +8,8 @@
 
 def selects_the_titles_of_all_projects_and_their_pledge_amounts_alphabetized_by_title
   "SELECT project.title,  
-  FROM table_name 
+  FROM projects
+  LEFT INNER JOIN
   WHERE column_name 
   BETWEEN value1 AND value2"
 end
