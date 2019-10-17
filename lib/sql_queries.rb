@@ -9,7 +9,7 @@
 def selects_the_titles_of_all_projects_and_their_pledge_amounts_alphabetized_by_title
   "SELECT project.title, SUM  
   FROM projects
-  LEFT INNER JOIN 
+  LEFT INNER JOIN pledges
   
   WHERE column_name 
   BETWEEN value1 AND value2"
